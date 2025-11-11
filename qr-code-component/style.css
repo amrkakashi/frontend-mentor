@@ -20,7 +20,7 @@ body {
 }
 
 .qr-code {
-  max-width: 320px;
+  max-width: 300px;
   padding: 16px;
   border-radius: 20px;
   background-color: var(--white);
@@ -46,5 +46,6 @@ body {
   font-weight: 400;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 20px;
   color: var(--slate-500);
 }
