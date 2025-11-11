@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
- :root {
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+:root {
   --white: hsl(0, 0%, 100%);
   --slate-300: hsl(212, 45%, 89%);
   --slate-500: hsl(216, 15%, 48%);
   --slate-900: hsl(218, 44%, 22%);
 }
 
-
-
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 15px;
   background-color: var(--slate-300);
 }
@@ -30,12 +28,10 @@ body {
   padding: 15px;
 }
 
-
 .qr-code img {
   width: 100%;
   border-radius: 10px;
 }
-
 
 .qr-code h1 {
   font-size: 20px;
@@ -52,9 +48,3 @@ body {
   margin-top: 10px;
   color: var(--slate-500);
 }
-
-
-
-
-
-
